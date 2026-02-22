@@ -15,10 +15,8 @@ buildNumber.properties
 
 # IDE - IntelliJ
 .idea/
-*.iml
 
 # OS files
-.DS_Store
 Thumbs.db
 
 # Logs
