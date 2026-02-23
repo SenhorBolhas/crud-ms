@@ -1,0 +1,7 @@
+stages:
+  - build
+
+build:
+  image: maven:3.8.5-openjdk-11
+  script:
+    - mvn clean package
