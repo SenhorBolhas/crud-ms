@@ -31,9 +31,7 @@ Microserviço responsável por criar, alterar, excluir e consultar Clientes.
 ### 1) Subir RabbitMQ
 
 ```bash
-docker run -d --hostname rabbit \
--p 5672:5672 -p 15672:15672 \
-rabbitmq:3-management
+docker run -d --hostname rabbit -p 5672:5672 -p 15672:15672 rabbitmq:3-management
 ```
 
 Console: ```http://localhost:15672```
